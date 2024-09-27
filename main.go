@@ -3,15 +3,12 @@ package main
 import "fmt"
 
 func main() {
-<<<<<<< HEAD
-  fmt.Println("Welcome to Group C's Week 4!")
-  result := factorial (9)
-  fmt.Println("factorial is:" , result)
-
-  }
-=======
 	fmt.Println("Welcome to Group C's Week 4!")
-	print(reversedNumber(54326))
 
+	arr := []int{11, 15, 19, 25, 30, 40}
+	fmt.Println("Unsorted array:", arr)
+
+	BubbleSort(arr)
+
+	fmt.Println("Sorted array: ", arr)
 }
->>>>>>> 249de538224efbc44ba207b19a382256de3f9197
