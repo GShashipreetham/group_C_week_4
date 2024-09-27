@@ -5,11 +5,15 @@ import "fmt"
 func main() {
   fmt.Println("Welcome to Group C's Week 4!")
 
-func reverseNumber(n int) int{
+func revesedNumber(){
+  number := 12345
   reversed := 0
-  for n != 0{
-    remainder := n%10
+  for number != 0{
+    remainder := number%10
     reversed = reversed*10 + remainder
+    number /=10
+    }
+  fmt.Print("Reversednumber.%d\n", reversed) }
 
 
 func countCharacters(s string) map[rune]int {
