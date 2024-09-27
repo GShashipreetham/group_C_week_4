@@ -5,31 +5,10 @@ import "fmt"
 func main() {
   fmt.Println("Welcome to Group C's Week 4!")
 
-func revesedNumber(){
-  number := 12345
-  reversed := 0
-  for number != 0{
-    remainder := number%10
-    reversed = reversed*10 + remainder
-    number /=10
-    }
-  fmt.Print("Reversednumber.%d\n", reversed) }
+  print(countCharacters("Sandeep Nalumasu"))
 
 
-func countCharacters(s string) map[rune]int {
-      countMap := make(map[rune]int)
-      for _, char := range s {
-        countMap[char]++
-      }
-      return countMap
-  }
 
-  func factorial(n int) int{
-  if n == 0{
-     return 1
-    }
-  return n * factorial(n-1)
-  }
 
     
   }
