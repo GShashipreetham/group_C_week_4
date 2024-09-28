@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+<<<<<<< HEAD
 
   fmt.Println("Welcome to Group C's Week 4!")
   
@@ -32,3 +33,10 @@ func main() {
 
     
 
+=======
+	var s int
+	fmt.Print("Enter the number of rows for the butterfly pattern: ")
+	fmt.Scan(&s)
+	cloud2003(s)
+}
+>>>>>>> 20b75a599b85aade3db01954b7b8c70dc8d0ffad
