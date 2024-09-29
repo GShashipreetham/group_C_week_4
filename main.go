@@ -29,4 +29,6 @@ func main() {
 	fmt.Scan(&n)
 	print("reverse of the number is:", numberreverse(n))
 
+	Tree(8)
+
 }
