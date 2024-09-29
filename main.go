@@ -5,7 +5,6 @@ import "fmt"
 func main() {
 
 	fmt.Println("Welcome to Group C's Week 4!")
-	fmt.Println("factorial is:")
 
 	var num int
 
@@ -40,5 +39,12 @@ func main() {
 	}
 
 	Tree(height)
+
+	var input string
+	fmt.Print("Enter the word:")
+	fmt.Scan(&input)
+	print("Rainbow word is: ",)
+	RainbowText(input)
+	fmt.Println() 
 
 }
