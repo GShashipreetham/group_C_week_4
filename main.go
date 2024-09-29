@@ -5,11 +5,7 @@ import "fmt"
 func main() {
 
 	fmt.Println("Welcome to Group C's Week 4!")
-<<<<<<< HEAD
 
-=======
-	fmt.Println("factorial is:")
->>>>>>> 8ac9f43a21f7628f07e61dd9e5c5db2447c23ea6
 	var num int
 
 	fmt.Print("Enter a number to check if it's a Happy Number: ")
@@ -41,20 +37,13 @@ func main() {
 
 	Tree(height)
 
-<<<<<<< HEAD
+	
 	var input string
 	fmt.Print("Enter the word:")
 	fmt.Scan(&input)
 	print("Rainbow word is: ",)
 	RainbowText(input)
+	
 	fmt.Println() 
-=======
-	a := []int{49, 70, 8, 90, -5, 95, 0}
-
-	maxnumber, minnumber := findMaxnumberMinnumber(a)
-
-	fmt.Printf("maxnumber for Sai Teja: %d\n", maxnumber)
-	fmt.Printf("minnumber for Dugyala: %d\n", minnumber)
->>>>>>> 8ac9f43a21f7628f07e61dd9e5c5db2447c23ea6
 
 }
