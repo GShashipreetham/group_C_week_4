@@ -9,7 +9,7 @@ func isHappyNumber(n int) bool {
     return n == 1
 }
 
-// Helper function to calculate the sum of squares of digits
+
 func sumOfSquaresOfDigits(n int) int {
     sum := 0
     for n > 0 {
