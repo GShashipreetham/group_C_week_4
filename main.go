@@ -9,11 +9,11 @@ func main() {
 
 	var num int
 
-	// Ask the user to input a number
+	
 	fmt.Print("Enter a number to check if it's a Happy Number: ")
 	fmt.Scanln(&num)
 
-	// Check if the entered number is a Happy Number
+	
 	if isHappyNumber(num) {
 		fmt.Printf("%d is a Happy Number.\n", num)
 	} else {
@@ -29,7 +29,7 @@ func main() {
 	fmt.Scan(&n)
 	print("reverse of the number is:", numberreverse(n))
 
-	// Height of the tree entered should be positive
+	
 	var height int
 	fmt.Print("Enter the height of the tree: ")
 	fmt.Scan(&height)
