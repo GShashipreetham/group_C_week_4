@@ -29,6 +29,16 @@ func main() {
 	fmt.Scan(&n)
 	print("reverse of the number is:", numberreverse(n))
 
-	Tree(8)
+	// Height of the tree entered should be positive
+	var height int
+	fmt.Print("Enter the height of the tree: ")
+	fmt.Scan(&height)
+
+	if height <= 0 {
+		fmt.Println("Height should be a positive integer.")
+		return
+	}
+
+	Tree(height)
 
 }
