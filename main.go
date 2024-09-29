@@ -6,14 +6,11 @@ func main() {
 
 	fmt.Println("Welcome to Group C's Week 4!")
 	fmt.Println("factorial is:")
-
 	var num int
 
-	
 	fmt.Print("Enter a number to check if it's a Happy Number: ")
 	fmt.Scanln(&num)
 
-	
 	if isHappyNumber(num) {
 		fmt.Printf("%d is a Happy Number.\n", num)
 	} else {
@@ -29,9 +26,8 @@ func main() {
 	fmt.Scan(&n)
 	print("reverse of the number is:", numberreverse(n))
 
-	
 	var height int
-	fmt.Print("Enter the height of the tree: ")
+	fmt.Println("Enter the height of the tree: ")
 	fmt.Scan(&height)
 
 	if height <= 0 {
@@ -40,5 +36,12 @@ func main() {
 	}
 
 	Tree(height)
+
+	a := []int{49, 70, 8, 90, -5, 95, 0}
+
+	maxnumber, minnumber := findMaxnumberMinnumber(a)
+
+	fmt.Printf("maxnumber for Sai Teja: %d\n", maxnumber)
+	fmt.Printf("minnumber for Dugyala: %d\n", minnumber)
 
 }
