@@ -18,13 +18,13 @@ func main() {
 	}
 
 	var s int
-	fmt.Println("Enter the number of rows for the butterfly pattern: ")
+	fmt.Print("Enter the number of rows for the butterfly pattern: ")
 	fmt.Scan(&s)
 	cloud2003(s)
 	var n int
-	fmt.Println("Enter the number you want to reverse: ")
+	fmt.Print("Enter the number you want to reverse: ")
 	fmt.Scan(&n)
-	println("reverse of the number is:", numberreverse(n))
+	print("reverse of the number is:\n", numberreverse(n))
 
 	var height int
 	fmt.Println("Enter the height of the tree: ")
