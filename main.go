@@ -46,4 +46,20 @@ func main() {
 	
 	fmt.Println() 
 
+
+	myCar := Car{
+		Vehicle: Vehicle{make: "Toyota", model: "Corolla"},
+		seats:   5,
+	}
+	myCar.Start()
+	myCar.Drive()
+
+	myEV := ElectricVehicle{
+		Vehicle:        Vehicle{make: "Tesla", model: "Model S"},
+		batteryCapacity: 100,
+	}
+	myEV.Start()
+	myEV.Drive()
+	myEV.Charge()
+
 }
