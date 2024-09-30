@@ -85,5 +85,9 @@ func main() {
         }
     }
 
+	a := []int{49, 70, 8, 90, -5, 95, 0}
+	maxnumber, minnumber := findMaxnumberMinnumber(a)
+	fmt.Printf("maxnumber for Sai Teja: %d\n", maxnumber)
+	fmt.Printf("minnumber for Dugyala: %d\n", minnumber)
 
 }
