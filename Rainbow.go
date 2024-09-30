@@ -11,7 +11,8 @@ func RainbowText(input string) {
         color := colors[i%len(colors)]
         fmt.Print(color, string(char))
     }
-    fmt.Print(colors[len(colors)-1])
+    fmt.Print("\033[0m")
+
 }
 
 
