@@ -62,4 +62,28 @@ func main() {
 	myEV.Drive()
 	myEV.Charge()
 
+	var choice int
+    var task string
+
+    for {
+        fmt.Println("1. Add Task")
+        fmt.Println("2. List Tasks")
+        fmt.Println("3. Exit")
+        fmt.Scan(&choice)
+
+        switch choice {
+        case 1:
+            fmt.Print("Enter task: ")
+            fmt.Scan(&task)
+            addTask(task)
+        case 2:
+            listTasks()
+        case 3:
+            return
+        default:
+            fmt.Println("Invalid choice. Please try again.")
+        }
+    }
+
+
 }
