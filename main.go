@@ -46,4 +46,48 @@ func main() {
 	
 	fmt.Println() 
 
+
+	myCar := Car{
+		Vehicle: Vehicle{make: "Toyota", model: "Corolla"},
+		seats:   5,
+	}
+	myCar.Start()
+	myCar.Drive()
+
+	myEV := ElectricVehicle{
+		Vehicle:        Vehicle{make: "Tesla", model: "Model S"},
+		batteryCapacity: 100,
+	}
+	myEV.Start()
+	myEV.Drive()
+	myEV.Charge()
+
+	var choice int
+    var task string
+
+    for {
+        fmt.Println("1. Add Task")
+        fmt.Println("2. List Tasks")
+        fmt.Println("3. Exit")
+        fmt.Scan(&choice)
+
+        switch choice {
+        case 1:
+            fmt.Print("Enter task: ")
+            fmt.Scan(&task)
+            addTask(task)
+        case 2:
+            listTasks()
+        case 3:
+            return
+        default:
+            fmt.Println("Invalid choice. Please try again.")
+        }
+    }
+
+	a := []int{49, 70, 8, 90, -5, 95, 0}
+	maxnumber, minnumber := findMaxnumberMinnumber(a)
+	fmt.Printf("maxnumber for Sai Teja: %d\n", maxnumber)
+	fmt.Printf("minnumber for Dugyala: %d\n", minnumber)
+
 }
