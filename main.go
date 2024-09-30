@@ -11,7 +11,7 @@ func main() {
 	fmt.Print("Enter a number to check if it's a Happy Number: ")
 	fmt.Scanln(&num)
 
-	if isHappyNumber(num) {
+	if HappyNumber(num) {
 		fmt.Printf("%d is a Happy Number.\n", num)
 	} else {
 		fmt.Printf("%d is not a Happy Number.\n", num)

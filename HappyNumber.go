@@ -1,6 +1,6 @@
 package main
 
-func isHappyNumber(n int) bool {
+func HappyNumber(n int) bool {
     seen := map[int]bool{}
     for n != 1 && !seen[n] {
         seen[n] = true
